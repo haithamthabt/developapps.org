@@ -1,0 +1,29 @@
+# Solutions vs Projects
+When you create a project with Visual Studio, you get prompt with "Place solution and project in the same directory"
+
+**But what does *"Place solution and project in the same directory"* even mean?**
+
+More over, what is the best practice. Should I place the solution and project in the same directory?
+
+## Lets first understand what is a solution?
+A solution contains a collection of projects, along with information on dependencies between those projects. The projects themselves contain files. So basically if you have multiple projects, they all are children of the solution. 
+
+![A solution, its projects, and their files](https://www.oreilly.com/library/view/mastering-visual-studio/0596003609/httpatomoreillycomsourceoreillyimages1884758.png)
+
+
+Solutions contain only projects—you cannot nest one solution inside another. However, projects can belong to multiple solutions. Projects that belong to multiple solutions") shows, which gives you great flexibility for organizing your builds, particularly in large applications.
+
+![Projects that belong to multiple solutions](https://www.oreilly.com/library/view/mastering-visual-studio/0596003609/httpatomoreillycomsourceoreillyimages1884760.png)
+
+
+### Creating a Solution
+
+A new solution may be created in many ways in Visual Studio. The simplest is to create a new project—by default, Visual Studio will create a new solution with the same name as the project. 
+
+## Projects
+
+A project has two main jobs: to act as a container for our source files and to compile those files into some kind of component
+
+## What is the best practice. Should I place the solution and project in the same directory?
+
+Since a solution is a container of projects, it does not make sense for the solution file to be inside the project directory. It is best to have a directory that contains your solution file, with subdirectories for each individual project
