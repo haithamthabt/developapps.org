@@ -1,0 +1,26 @@
+
+
+## Model
+This is respobsible for going to the database, getting data from the database.
+Models are going to be the representations of data in the database
+
+## Controler
+This is where to manage URLs 
+
+## View 
+This where to display data on web pages.
+
+
+## program.cs
+This is basically where all the options are bundled togather
+
+## appsettings.json
+The settings when app is running. 
+Settings like database connection strings
+
+## wwwroot
+This is where to have assets, images, css, etc
+
+
+
+
