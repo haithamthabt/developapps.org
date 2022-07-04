@@ -13,6 +13,7 @@ This where to display data on web pages.
 
 ## program.cs
 This is basically where all the options are bundled togather
+This is the file that will be responsible for running the application. 
 
 ## appsettings.json
 The settings when app is running. 
